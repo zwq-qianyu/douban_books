@@ -62,7 +62,7 @@ class SlaveDownloaderMiddleware(object):
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
     def __init__(self):
-        self.r = redis.Redis(host=slave.settings.get(REDIS_HOST), port=slave.settings.get(REDIS_PORT), decode_responses=True)
+        self.r = redis.Redis(host="127.0.0.1", port=6379, decode_responses=True)
         self.proxy_list = []
 
     def get_proxy(self):
@@ -93,19 +93,11 @@ class SlaveDownloaderMiddleware(object):
         # - or return a Request object
         # - or raise IgnoreRequest: process_exception() methods of
         #   installed downloader middleware will be called
-        if str(request.url).startswith("https://book.douban.com/subject/"):
-            while not self.proxy_list:
-                self.get_proxy()
-            # 随机选择一个代理
-            proxy =  random.choice(self.proxy_list)
-
-            request.meta['proxy'] = {
-                'http': 'http://' + proxy,
-                'https': 'https://' + proxy,
-            }
-            request.meta['real'] = str(request.url)
-            return None
-        raise IgnoreRequest
+        while not self.proxy_list:
+            self.get_proxy()
+        # 随机选择一个代理
+        proxy =  random.choice(self.proxy_list)
+        request.meta['proxy'] = 'http://' + proxy
 
 
     def process_response(self, request, response, spider):

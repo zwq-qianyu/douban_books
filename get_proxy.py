@@ -1,7 +1,7 @@
 import requests,redis,time
 
 r = redis.Redis(host="localhost", port="6379", decode_responses=True)
-get_url = 'http://tvp.daxiangdaili.com/ip/?tid=558112377486448&num=100&filter=on'
+get_url = 'http://tvp.daxiangdaili.com/ip/?tid=558112377486448&num=20&filter=on'
 
 while 1:
     while 1:

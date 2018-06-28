@@ -1,0 +1,2534 @@
+2018-06-28 01:24:20 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: master)
+2018-06-28 01:24:20 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.4 (v3.6.4:d48ecebad5, Dec 18 2017, 21:07:28) - [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.6.0-x86_64-i386-64bit
+2018-06-28 01:24:20 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'master', 'DOWNLOAD_DELAY': 2, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'master.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['master.spiders']}
+2018-06-28 01:24:20 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-28 01:24:20 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-28 01:24:20 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-28 01:24:20 [scrapy.middleware] INFO: Enabled item pipelines:
+['master.pipelines.MasterPipeline']
+2018-06-28 01:24:20 [scrapy.core.engine] INFO: Spider opened
+2018-06-28 01:24:20 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-28 01:24:20 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-06-28 01:24:20 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-28 01:24:20 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 27, 17, 24, 20, 994393),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 67121152,
+ 'memusage/startup': 67121152,
+ 'start_time': datetime.datetime(2018, 6, 27, 17, 24, 20, 984532)}
+2018-06-28 01:24:20 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-06-28 01:39:58 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: master)
+2018-06-28 01:39:58 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.4 (v3.6.4:d48ecebad5, Dec 18 2017, 21:07:28) - [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.6.0-x86_64-i386-64bit
+2018-06-28 01:39:58 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'master', 'DOWNLOAD_DELAY': 2, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'master.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['master.spiders']}
+2018-06-28 01:39:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-28 01:39:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-28 01:39:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-28 01:39:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['master.pipelines.MasterPipeline']
+2018-06-28 01:39:58 [scrapy.core.engine] INFO: Spider opened
+2018-06-28 01:39:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-28 01:39:58 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-06-28 01:39:58 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> from <GET http://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+2018-06-28 01:40:01 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> (referer: None)
+2018-06-28 01:40:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <403 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>: HTTP status code is not handled or not allowed
+2018-06-28 01:40:01 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-28 01:40:01 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 560,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 627,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/301': 1,
+ 'downloader/response_status_count/403': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 27, 17, 40, 1, 733045),
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 8,
+ 'memusage/max': 67035136,
+ 'memusage/startup': 67035136,
+ 'response_received_count': 1,
+ 'scheduler/dequeued/redis': 2,
+ 'scheduler/enqueued/redis': 2,
+ 'start_time': datetime.datetime(2018, 6, 27, 17, 39, 58, 675322)}
+2018-06-28 01:40:01 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-06-28 01:42:29 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: master)
+2018-06-28 01:42:29 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.4 (v3.6.4:d48ecebad5, Dec 18 2017, 21:07:28) - [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.6.0-x86_64-i386-64bit
+2018-06-28 01:42:29 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'master', 'DOWNLOAD_DELAY': 2, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'master.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['master.spiders']}
+2018-06-28 01:42:29 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-28 01:42:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-28 01:42:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-28 01:42:29 [scrapy.middleware] INFO: Enabled item pipelines:
+['master.pipelines.MasterPipeline']
+2018-06-28 01:42:29 [scrapy.core.engine] INFO: Spider opened
+2018-06-28 01:42:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-28 01:42:29 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-06-28 01:42:29 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> from <GET http://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+2018-06-28 01:42:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> (referer: None)
+2018-06-28 01:42:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/tiramisu/Desktop/douban_books/master/master/spiders/bookdetail_urls.py", line 30, in parse
+    item = MasterItem()
+NameError: name 'MasterItem' is not defined
+2018-06-28 01:42:33 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-28 01:42:33 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 368,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 14910,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/301': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 27, 17, 42, 33, 590440),
+ 'log_count/DEBUG': 3,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 67284992,
+ 'memusage/startup': 67284992,
+ 'response_received_count': 1,
+ 'scheduler/dequeued/redis': 2,
+ 'scheduler/enqueued/redis': 2,
+ 'spider_exceptions/NameError': 1,
+ 'start_time': datetime.datetime(2018, 6, 27, 17, 42, 29, 517248)}
+2018-06-28 01:42:33 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-06-28 01:44:55 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: master)
+2018-06-28 01:44:55 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.4 (v3.6.4:d48ecebad5, Dec 18 2017, 21:07:28) - [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.6.0-x86_64-i386-64bit
+2018-06-28 01:44:55 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'master', 'DOWNLOAD_DELAY': 2, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'master.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['master.spiders']}
+2018-06-28 01:44:55 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-28 01:44:55 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-28 01:44:55 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-28 01:44:55 [scrapy.middleware] INFO: Enabled item pipelines:
+['master.pipelines.MasterPipeline']
+2018-06-28 01:44:55 [scrapy.core.engine] INFO: Spider opened
+2018-06-28 01:44:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-28 01:44:55 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-06-28 01:44:56 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> from <GET http://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+2018-06-28 01:44:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> (referer: None)
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/5952488/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/26846721/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/1223845/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/4846032/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/26146992/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/25833051/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/27018506/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/6507262/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/1069138/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/27041530/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/4114636/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/26183848/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/5976521/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/1310112/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/5916004/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/2082044/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/1344535/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/6795816/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/11442509/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.scraper] ERROR: Error processing {'url': 'https://book.douban.com/subject/21764541/'}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/tiramisu/Desktop/douban_books/master/master/pipelines.py", line 27, in process_item
+    print("============="+bookid)
+TypeError: must be str, not list
+2018-06-28 01:44:58 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-28 01:44:58 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 368,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 14910,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/301': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 27, 17, 44, 58, 670939),
+ 'log_count/DEBUG': 3,
+ 'log_count/ERROR': 20,
+ 'log_count/INFO': 7,
+ 'memusage/max': 67227648,
+ 'memusage/startup': 67227648,
+ 'response_received_count': 1,
+ 'scheduler/dequeued/redis': 2,
+ 'scheduler/enqueued/redis': 2,
+ 'start_time': datetime.datetime(2018, 6, 27, 17, 44, 55, 944107)}
+2018-06-28 01:44:58 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-06-28 01:46:25 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: master)
+2018-06-28 01:46:25 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.4 (v3.6.4:d48ecebad5, Dec 18 2017, 21:07:28) - [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.6.0-x86_64-i386-64bit
+2018-06-28 01:46:25 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'master', 'DOWNLOAD_DELAY': 2, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'master.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['master.spiders']}
+2018-06-28 01:46:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-28 01:46:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-28 01:46:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-28 01:46:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['master.pipelines.MasterPipeline']
+2018-06-28 01:46:25 [scrapy.core.engine] INFO: Spider opened
+2018-06-28 01:46:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-28 01:46:25 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-06-28 01:46:25 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> from <GET http://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+2018-06-28 01:46:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> (referer: None)
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:46:27 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-28 01:46:27 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 368,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 14905,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/301': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 27, 17, 46, 27, 808114),
+ 'item_scraped_count': 20,
+ 'log_count/DEBUG': 23,
+ 'log_count/INFO': 7,
+ 'memusage/max': 67112960,
+ 'memusage/startup': 67112960,
+ 'response_received_count': 1,
+ 'scheduler/dequeued/redis': 2,
+ 'scheduler/enqueued/redis': 2,
+ 'start_time': datetime.datetime(2018, 6, 27, 17, 46, 25, 806893)}
+2018-06-28 01:46:27 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-06-28 01:49:10 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: master)
+2018-06-28 01:49:10 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.4 (v3.6.4:d48ecebad5, Dec 18 2017, 21:07:28) - [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.6.0-x86_64-i386-64bit
+2018-06-28 01:49:10 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'master', 'DOWNLOAD_DELAY': 2, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'master.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'SPIDER_MODULES': ['master.spiders']}
+2018-06-28 01:49:10 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-28 01:49:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-28 01:49:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-28 01:49:10 [scrapy.middleware] INFO: Enabled item pipelines:
+['master.pipelines.MasterPipeline']
+2018-06-28 01:49:10 [scrapy.core.engine] INFO: Spider opened
+2018-06-28 01:49:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-28 01:49:10 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-06-28 01:49:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> from <GET http://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+2018-06-28 01:49:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com//tag/%E4%B8%A4%E6%80%A7> (referer: None)
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com//tag/%E4%B8%A4%E6%80%A7>
+None
+2018-06-28 01:49:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T> (referer: https://book.douban.com//tag/%E4%B8%A4%E6%80%A7)
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=20&type=T)
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=40&type=T)
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=60&type=T)
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=80&type=T)
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=100&type=T)
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=120&type=T)
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=140&type=T)
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=160&type=T)
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T>
+None
+2018-06-28 01:49:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=180&type=T)
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=200&type=T)
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=220&type=T)
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=240&type=T)
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=260&type=T)
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=280&type=T)
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=300&type=T)
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=320&type=T)
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=340&type=T)
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:49:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T>
+None
+2018-06-28 01:50:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=360&type=T)
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=380&type=T)
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=400&type=T)
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=420&type=T)
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T>
+None
+2018-06-28 01:50:10 [scrapy.extensions.logstats] INFO: Crawled 23 pages (at 23 pages/min), scraped 447 items (at 447 items/min)
+2018-06-28 01:50:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=440&type=T)
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=460&type=T)
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=480&type=T)
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T>
+None
+2018-06-28 01:50:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=500&type=T)
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=520&type=T)
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=540&type=T)
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=560&type=T)
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=580&type=T)
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=600&type=T)
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T>
+None
+2018-06-28 01:50:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=620&type=T)
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T>
+None
+2018-06-28 01:50:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=640&type=T)
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=660&type=T)
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=680&type=T)
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=700&type=T)
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=720&type=T)
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=740&type=T)
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=760&type=T)
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=780&type=T)
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=800&type=T)
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=820&type=T)
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=840&type=T)
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=860&type=T)
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:50:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=880&type=T)
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=900&type=T)
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=920&type=T)
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=940&type=T)
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=960&type=T)
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T>
+None
+2018-06-28 01:51:10 [scrapy.extensions.logstats] INFO: Crawled 50 pages (at 27 pages/min), scraped 986 items (at 539 items/min)
+2018-06-28 01:51:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=1000&type=T> (referer: https://book.douban.com/tag/%E4%B8%A4%E6%80%A7?start=980&type=T)
+2018-06-28 01:51:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-28 01:51:11 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 15295,
+ 'downloader/request_count': 52,
+ 'downloader/request_method_count/GET': 52,
+ 'downloader/response_bytes': 697141,
+ 'downloader/response_count': 52,
+ 'downloader/response_status_count/200': 51,
+ 'downloader/response_status_count/301': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 27, 17, 51, 11, 669944),
+ 'item_scraped_count': 986,
+ 'log_count/DEBUG': 1039,
+ 'log_count/INFO': 9,
+ 'memusage/max': 82231296,
+ 'memusage/startup': 67203072,
+ 'request_depth_max': 50,
+ 'response_received_count': 51,
+ 'scheduler/dequeued/redis': 52,
+ 'scheduler/enqueued/redis': 52,
+ 'start_time': datetime.datetime(2018, 6, 27, 17, 49, 10, 685994)}
+2018-06-28 01:51:11 [scrapy.core.engine] INFO: Spider closed (finished)

@@ -71,7 +71,7 @@ class SlaveDownloaderMiddleware(object):
         while self.r.llen('proxy'):
             self.proxy_list.append(str(self.r.lpop('proxy')))
             num += 1
-            if num == 20:
+            if num == 200:
                 break
         print("获取了%d个代理"%num)
 
